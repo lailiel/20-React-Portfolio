@@ -1,6 +1,6 @@
 import { useState } from 'react';
 
-import { checkInput, validateEmail} from "./utils/helpers";
+import { validateEmail} from "./utils/helpers";
 
 function ContactForm() {
 
@@ -8,6 +8,7 @@ function ContactForm() {
     const [email, setEmail] = useState('');
     const [message, setMessage] = useState('');
     const [errorMessage, setErrorMessage] = useState('');
+    const [messageSent, setMessageSent] = useState(false);
 
     // const handleInputChange = (e) => {
     //     // Getting the value and name of the input which triggered the change
