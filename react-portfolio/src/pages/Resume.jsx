@@ -1,10 +1,12 @@
+import resume from "../assets/AbigailLivick.pdf"
+
 export default function ResumePage() {
     return (
-        <div className="resume">
+        <div className="resume-content">
             <h2>Resume: </h2>
-            <a ></a>
+            <a href={resume} download>Download Resume PDF here.</a>
             <h3>Front-End Proficiencies</h3>
-                <ul>
+                <ul className="resume-ul">
                     <li>HTML</li>
                     <li>CSS</li>
                     <li>Javascript</li>
@@ -15,7 +17,7 @@ export default function ResumePage() {
                     <li>PWA</li>
                 </ul>
             <h3>Back-End Proficiencies</h3>
-                <ul>
+                <ul className="resume-ul">
                     <li>APIs</li>
                     <li>Node</li>
                     <li>Express</li>
