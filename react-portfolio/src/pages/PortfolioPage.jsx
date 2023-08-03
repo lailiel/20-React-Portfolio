@@ -10,7 +10,7 @@ const PortfolioPage = () => {
 
         { name: 'Tech Blog', skillsUsed: 'MCV', gitLink: 'https://github.com/lailiel/14-MVC-Tech-Blog', link: 'https://techblog7395-7f4f7ae01458.herokuapp.com/', image: './src/assets/projectimages/TechBlog.jpg'},
         { name: 'E-Commerce Back End', skillsUsed: 'ORM', gitLink: 'https://github.com/lailiel/13-E-Commerce-Back-End', link: '', image: './src/assets/projectimages/EcommerceBackend.jpg'},
-        { name: 'Employee Tracker', skillsUsed: 'SQL', gitLink: 'https://github.com/lailiel/12-Employee-Tracker', link: 'https://employee-tracker1191.herokuapp.com/', image: './src/assets/projectimages/EmployeeTracker.jpg'},
+        { name: 'Employee Tracker', skillsUsed: 'SQL', gitLink: 'https://github.com/lailiel/12-Employee-Tracker', link: '', image: './src/assets/projectimages/EmployeeTracker.jpg'},
         { name: 'Note Taker', skillsUsed: 'Express', gitLink: 'https://github.com/lailiel/11-Note-Taker', link: 'https://note-taker6876.herokuapp.com/', image: './src/assets/projectimages/NoteTaker.jpg'}, 
         { name: 'Logo Generator', skillsUsed: 'OOP', gitLink: 'https://github.com/lailiel/10-Logo-Generator', link: '', image: './src/assets/projectimages/LogoGenerator.jpg'},
         { name: 'Read-me Generator', skillsUsed: 'NodeJS', gitLink: 'https://github.com/lailiel/09-ReadMe-Generator', link: '', image: './src/assets/projectimages/ReadmeGenerator.jpg'},

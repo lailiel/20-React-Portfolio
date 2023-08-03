@@ -1,6 +1,10 @@
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
+
 export default function AboutPage() {
     return (
-       <div className="content">
+       <Container fluid>
         <h2>Hello!</h2>
         <p>l Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus
         tenetur maiores, dolor iusto dolorum ullam, natus deleniti blanditiis
@@ -10,6 +14,6 @@ export default function AboutPage() {
         mollitia, excepturi, voluptatem eveniet a dolor nobis ex veniam totam
         nostrum temporibus ad omnis nam rerum eligendi.</p>
 
-       </div>
+       </Container>
     )
 }
