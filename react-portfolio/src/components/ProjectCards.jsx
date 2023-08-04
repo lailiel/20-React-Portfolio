@@ -1,7 +1,7 @@
 import githubLogo from '../assets/github-logo.svg'
-import Card from 'react-bootstrap/Card';
-import Col from 'react-bootstrap/Col'
-import Row from 'react-bootstrap/Row'
+import { Card, Col, Row, Ratio } from 'react-bootstrap';
+
+
 
 
 const ProjectCards = ({projects}) => {
@@ -10,8 +10,9 @@ const ProjectCards = ({projects}) => {
     <Row xs={1} sm={2} md={2} lg={3} className="g-5">
         {projects.map(project => (
         <Col key={project.id}>
-        <Card>
-            <Card.Img src={project.image} alt='Project Image'  />
+        <Card style={{height:'100%', aspectRatio: "3x2"}}>
+       
+            <Card.Img style={{height:'100%', objectFit: 'cover'}} src={project.image} alt='Project Image'  />
             <Card.ImgOverlay>
                 <Card.Title>
                     <a href={project.link}>
@@ -28,7 +29,7 @@ const ProjectCards = ({projects}) => {
                     </Card.Img>
                 </a>
             </Card.ImgOverlay>
-            
+   
         </Card>
         </Col>
         ))}
