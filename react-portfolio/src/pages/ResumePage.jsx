@@ -1,6 +1,7 @@
 import { useState } from 'react'
 // import SkillList from '../components/SkillList'
 import resume from "../assets/AbigailLivickResume.pdf"
+import Container from 'react-bootstrap/Container'
 
 const ResumePage = () => {
     // const [skills, setSkills] = useState ([
@@ -19,15 +20,17 @@ const ResumePage = () => {
     // ])
 
     return (
-        <div className="resume-content">
-            <h2>Resume: </h2>
+        <Container fluid className="py-4 px-5" id="resume-content">
+            <div className='my-3'>
+                <h2>Resume: </h2>
+            </div>
             <section style={{height: "85vh", overflow:"hidden"}}>
                 <iframe src={resume} width="100%" height="100%" title="Abigail Livick Resume"></iframe>
             </section>
             {/* <a className="download" href={resume} download>Download Resume PDF here.</a> */}
             {/* <SkillList skills={skills.filter(skill => skill.type === 'Front-End')} title="Front-End"/>
             <SkillList skills={skills.filter(skill => skill.type === 'Back-End')} title="Back-End"/> */}
-        </div>
+        </Container>
     )
 }
 

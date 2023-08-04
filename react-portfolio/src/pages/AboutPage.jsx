@@ -2,8 +2,8 @@ import Container from "react-bootstrap/Container";
 
 export default function AboutPage() {
   return (
-    <Container fluid className="p-5" id="aboutme">
-      <div className="mb-3">
+    <Container fluid className="py-4 px-5" id="aboutme">
+      <div className="my-3">
         <h2>Hello!</h2>
       </div>
       <div>
