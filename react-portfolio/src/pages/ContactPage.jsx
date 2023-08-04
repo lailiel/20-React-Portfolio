@@ -1,19 +1,40 @@
 // import EmailSubmit from '../components/Contact'
-import Container from 'react-bootstrap/Container';
+import Container from "react-bootstrap/Container";
+import InputGroup from "react-bootstrap/InputGroup";
+import Form from "react-bootstrap/Form";
 
 export default function ContactPage() {
-    return (
-        <Container fluid>
-            <h2>Contact</h2>
-            <h3>Name:</h3>
-                <input type="text" className="name" />
-            <h3>Email:</h3>
-                <input type="text" className="email" />
-            <h3>Message:</h3>
-                <textarea rows="10" className="message"></textarea>
-                <p className="contact-response"></p>
-                <button className="submit">Submit</button>
-             
-        </Container>
-    )
+  return (
+    <Container fluid className="p-5" id="contactform">
+      <div className="mt-3">
+        <h2>Contact</h2>
+      </div>
+      <div>
+        <Form.Label>Name:</Form.Label>
+        <InputGroup className="mb-3">
+          <Form.Control
+            placeholder="Name"
+            aria-label="Name"
+            aria-describedby="basic-addon2"
+          />
+        </InputGroup>
+        <Form.Label>Email:</Form.Label>
+        <InputGroup className="mb-3">
+          <Form.Control
+            placeholder="example@email.com"
+            aria-label="Email"
+            aria-describedby="basic-addon2"
+          />
+        </InputGroup>
+        <Form.Label>Message:</Form.Label>
+        <InputGroup className="mb-3" style={{height:'6em'}}>
+          <Form.Control
+            placeholder="What's your message?"
+            as="textarea"
+            aria-label="Message"
+          />
+        </InputGroup>
+      </div>
+    </Container>
+  );
 }
