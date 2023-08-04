@@ -6,6 +6,13 @@ body {
   overflow-x: hidden;
 }
 
-.aboutme{
+#root{
+  min-height: 100vh;
+}
+
+#aboutme{
+  display: flex;
+  flex-direction: column;
   flex-grow: 1;
 }
+
