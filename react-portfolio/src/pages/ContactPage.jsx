@@ -1,4 +1,4 @@
-import { Form, InputGroup, Container} from "react-bootstrap";
+import { Form, InputGroup, Container, Button, Stack} from "react-bootstrap";
 
 import { useState } from 'react';
 
@@ -6,6 +6,8 @@ import { validateEmail} from "../components/utils/helpers";
 
 
 export default function ContactPage() {
+
+
 
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
@@ -29,7 +31,7 @@ export default function ContactPage() {
         }
       };
 
-      const handleBlur = (e) => {
+  const handleBlur = (e) => {
 
         const { target } = e;
         const inputType = target.name;
@@ -49,6 +51,10 @@ export default function ContactPage() {
         }
 
       }
+
+    const handleSubmit = (e) => {
+      
+    }
 
   return (
     <Container fluid className="py-4 px-5" id="contactform">
@@ -89,9 +95,16 @@ export default function ContactPage() {
             onChange={handleInputChange}
           />
         </InputGroup>
-        <p>
-          {errorMessage}
-        </p>
+        <Stack direction="horizontal">
+          <Button
+            onClick={() => setErrorMessage(`Currently Unavailable : Please email me at abilivick@gmail.com`)}>
+            Submit
+          </Button>
+          <p className="mx-3 my-2">
+            {errorMessage}
+          </p>
+        </Stack>
+        
       </div>
     </Container>
   );
