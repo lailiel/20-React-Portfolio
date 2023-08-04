@@ -1,27 +1,23 @@
 import { Form, InputGroup, Container, Button, Stack} from "react-bootstrap";
-
 import { useState } from 'react';
-
 import { validateEmail} from "../components/utils/helpers";
 
 
 export default function ContactPage() {
 
-
-
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [message, setMessage] = useState('');
   const [errorMessage, setErrorMessage] = useState('');
-  const [messageSent, setMessageSent] = useState(false);
+
+// ---------------------------------------------
 
   const handleInputChange = (e) => {
-        // Getting the value and name of the input which triggered the change
+
         const { target } = e;
         const inputType = target.name;
         const inputValue = target.value;
     
-        // Based on the input type, we set the state of either email, username, and password
         if (inputType === 'name') {
           setName(inputValue);
         } else if (inputType === 'email') {
@@ -30,6 +26,8 @@ export default function ContactPage() {
           setMessage(inputValue);
         }
       };
+
+// ---------------------------------------------
 
   const handleBlur = (e) => {
 
@@ -52,9 +50,7 @@ export default function ContactPage() {
 
       }
 
-    const handleSubmit = (e) => {
-      
-    }
+// ---------------------------------------------
 
   return (
     <Container fluid className="py-4 px-5" id="contactform">

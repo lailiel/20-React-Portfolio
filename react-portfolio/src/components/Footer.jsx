@@ -3,7 +3,7 @@ import linkedinLogo from '../assets/linkedin-tile.svg'
 import Container from 'react-bootstrap/Container'
 
 export default function FooterComponent() {
-  // The Navbar UI component will render each of the Link elements in the links prop
+  
   return (
     <div className='bg-light text-center text-white footer'>
       <Container className='mb-2 '>

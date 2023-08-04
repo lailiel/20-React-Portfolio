@@ -3,7 +3,7 @@ import ProjectCards from '../components/ProjectCards'
 import Container from 'react-bootstrap/Container'
 
 
-const PortfolioPage = () => {
+export default function PortfolioPage()  {
     const [projects, setProjects] = useState ([
         { id: 1, name: 'Text Editor', skillsUsed: 'PWA', gitLink: 'https://github.com/lailiel/19-Text-Editor', link: 'https://tech-blog-4899-b706d3d7cc33.herokuapp.com/', image: './src/assets/projectimages/TextEditor.jpg'},
         { id: 2, name: 'Social Network API', skillsUsed: 'noSQL', gitLink: 'https://github.com/lailiel/18-Social-Network-Api', link: 'https://github.com/lailiel/18-Social-Network-Api', image: './src/assets/projectimages/SocialNetworkApi.jpg'},
@@ -35,16 +35,5 @@ const PortfolioPage = () => {
       );
 }
 
-export default PortfolioPage
 
 
-// return (
-//     <div className="project-content">
-//         <h2>Projects: </h2>
-//         <Container>
-//             <ProjectCards projects={projects}/>
-//         </Container>
-        
-//     </div>
-// )
-// }

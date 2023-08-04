@@ -1,5 +1,5 @@
 import githubLogo from '../assets/github-logo.svg'
-import { Card, Col, Row, Ratio } from 'react-bootstrap';
+import { Card, Col, Row } from 'react-bootstrap';
 
 
 

@@ -1,7 +1,6 @@
 import { Link } from 'react-router-dom';
-import Navbar from 'react-bootstrap/Navbar';
-import Nav from 'react-bootstrap/Nav';
-import Container from 'react-bootstrap/Container'
+import { Navbar, Nav, Container } from 'react-bootstrap';
+
 
 export default function CustomNavbar() {
   return (
