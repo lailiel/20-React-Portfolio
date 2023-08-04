@@ -5,8 +5,8 @@ import Container from 'react-bootstrap/Container'
 export default function FooterComponent() {
   // The Navbar UI component will render each of the Link elements in the links prop
   return (
-    <footer className='bg-light text-center text-white footer'>
-      <Container classsName='mb-2 '>
+    <div className='bg-light text-center text-white footer'>
+      <Container className='mb-2 '>
           <a href='https://github.com/lailiel'>
            <img id='icon' src={githubLogo} className='m-4'style={{width:'30px', height:'30px'}} ></img>
           </a>
@@ -14,7 +14,7 @@ export default function FooterComponent() {
           <img id='icon' src={linkedinLogo} className='m-4'style={{width:'30px', height:'30px'}} ></img>
           </a>
       </Container>
-    </footer>
+    </div>
 
   );
 }

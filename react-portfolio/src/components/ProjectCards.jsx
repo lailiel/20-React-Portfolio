@@ -1,6 +1,5 @@
 import githubLogo from '../assets/github-logo.svg'
 import Card from 'react-bootstrap/Card';
-import Container from 'react-bootstrap/Container'
 import Col from 'react-bootstrap/Col'
 import Row from 'react-bootstrap/Row'
 
@@ -10,7 +9,7 @@ const ProjectCards = ({projects}) => {
     return (
     <Row xs={1} sm={2} md={2} lg={3} className="g-5">
         {projects.map(project => (
-        <Col>
+        <Col key={project.id}>
         <Card>
             <Card.Img src={project.image} alt='Project Image'  />
             <Card.ImgOverlay>
