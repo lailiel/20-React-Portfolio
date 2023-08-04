@@ -1,6 +1,6 @@
 import { useState } from 'react'
 // import SkillList from '../components/SkillList'
-import resume from "../assets/AbigailLivick.pdf"
+import resume from "../assets/AbigailLivickResume.pdf"
 
 const ResumePage = () => {
     // const [skills, setSkills] = useState ([

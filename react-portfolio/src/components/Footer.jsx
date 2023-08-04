@@ -1,17 +1,22 @@
-import githubLogo from '../assets/github-mark.png'
-import linkedinLogo from '../assets/LI-In-Bug.png'
+import githubLogo from '../assets/github-logo.svg'
+import linkedinLogo from '../assets/linkedin-tile.svg'
+import Container from 'react-bootstrap/Container'
 
-export default function Footer() {
+export default function FooterComponent() {
   // The Navbar UI component will render each of the Link elements in the links prop
   return (
-    <div className="footer">
-       <a href="https://github.com/lailiel">
-        <img src={githubLogo} atl="Github Logo"/>
-       </a>
-       <a href="https://www.linkedin.com/in/abilivick/">
-        <img src={linkedinLogo} atl="Linked In Logo"/>
-       </a>
-    </div>
+    <footer className='bg-light text-center text-white absolute-bottom'>
+      <Container >
+        <section classsName='mb-2 '>
+          <a href='https://github.com/lailiel'>
+           <img id='icon' src={githubLogo} className='m-4'style={{width:'30px', height:'30px'}} ></img>
+          </a>
+          <a href='https://www.linkedin.com/in/abilivick/'>
+          <img id='icon' src={linkedinLogo} className='m-4'style={{width:'30px', height:'30px'}} ></img>
+          </a>
+        </section>
+      </Container>
+    </footer>
 
   );
 }

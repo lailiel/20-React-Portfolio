@@ -1,26 +1,36 @@
-import githubLogo from '../assets/github-mark.png'
+import githubLogo from '../assets/github-logo.svg'
+import Card from 'react-bootstrap/Card';
+
 
 const ProjectCards = ({projects}) => {
 
     return (
     <div className="project-container">
         {projects.map(project => (
-        <div className='project-card' >
-            <img src={project.image} alt="project image" className="project-image" />
-            {/* href={project.link} */}
-            <h4>{project.name}</h4>
-            <a href={project.gitLink}>
-                <img className="logo" src={githubLogo} atl="Github Logo"/>
-            </a>
-                <div>
-                    <p>{project.skillsUsed}</p>
-                </div>
-        </div>
+        <Card>
+            <Card.Img src={project.image} alt='Project Image'  />
+            <Card.ImgOverlay>
+                <Card.Title>
+                    <a href={project.link}>
+                        {project.name}
+                    </a>
+                </Card.Title>
+                <Card.Text>
+                    {project.skillsUsed}
+                </Card.Text>
+                <a href={project.gitLink}>
+                    <Card.Img  
+                        style={{width:'30px', height:'30px'}} 
+                        src={githubLogo} atl="Github Logo">
+                    </Card.Img>
+                </a>
+            </Card.ImgOverlay>
+            
+        </Card>
         ))}
         
     </div>
         );     
     }
-        
     
     export default ProjectCards;

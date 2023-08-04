@@ -1,8 +1,9 @@
 // import EmailSubmit from '../components/Contact'
+import Container from 'react-bootstrap/Container';
 
 export default function ContactPage() {
     return (
-        <div className="contact-form">
+        <Container fluid>
             <h2>Contact</h2>
             <h3>Name:</h3>
                 <input type="text" className="name" />
@@ -13,6 +14,6 @@ export default function ContactPage() {
                 <p className="contact-response"></p>
                 <button className="submit">Submit</button>
              
-        </div>
+        </Container>
     )
 }
