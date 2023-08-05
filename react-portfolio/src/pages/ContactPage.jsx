@@ -96,9 +96,10 @@ export default function ContactPage() {
         </InputGroup>
         <Stack direction="horizontal">
           <Button
+            style={{backgroundColor: '#001f2d', color: '#e5f5fc'}}
             onClick={() => setErrorMessage(`Currently Unavailable : Please email me at abilivick@gmail.com`)}>
             Submit
-          </Button>
+          </Button >
           <p className="mx-3 my-2">
             {errorMessage}
           </p>
