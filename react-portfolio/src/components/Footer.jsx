@@ -3,9 +3,9 @@ import linkedinLogo from '../assets/linkedin-tile.svg'
 import Container from 'react-bootstrap/Container'
 
 export default function FooterComponent() {
-  
+
   return (
-    <div className='bg-light text-center text-white footer'>
+    <div className='text-center text-white' id='footer'>
       <Container className='mb-2 '>
           <a href='https://github.com/lailiel'>
            <img id='icon' src={githubLogo} className='m-4'style={{width:'30px', height:'30px'}} ></img>

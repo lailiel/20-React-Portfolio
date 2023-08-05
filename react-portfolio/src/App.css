@@ -1,9 +1,44 @@
+:root {
+  --x-light:#e5f5fc;
+  --light: #66c5ee;
+  --mid-light: #32b2e8;
+  --mid: #009fe3;
+  --mid-dark: #004f71;
+  --mid-darker: #003f5a;
+  --dark: #001f2d;
+
+}
+
 body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
   margin: 0;
   overflow-y: scroll;
+  background-color: var(--mid-dark);
+}
+
+
+
+#navbar{
+  background-color: var(--dark);
+}
+
+.nav-link{
+  color: var(--light)
+}
+
+.nav-link:active, .nav-link:hover, .nav-link:focus {
+  color:var(--x-light)
+}
+
+#nav-name{
+  color: var(--mid)
+}
+
+#footer{
+  background-color: var(--mid-darker);
+
 }
 
 #root{
@@ -26,7 +61,34 @@ body {
   flex-grow: 1;
 }
 
+#form-control{
+  background-color: var(--x-light);
+}
+
+#form-label{
+  color: var(--light);
+}
+
+#project-card{
+  color:var(--mid-dark)
+
+}
+
 h3 {
   margin: 0.5em 0 0.5em 0;
 }
 
+p{
+  color: var(--light);
+}
+
+h1, h2, h3, h4, h5 {
+  color: var(--light);
+  font-family: 'North', Arial, Helvetica, sans-serif;
+}
+
+
+@font-face {
+  font-family: 'North';
+  src: url('./assets/North.otf') format('opentype');
+}

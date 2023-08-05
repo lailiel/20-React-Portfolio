@@ -58,34 +58,37 @@ export default function ContactPage() {
         <h2>Contact</h2>
       </div>
       <div>
-        <Form.Label>Name:</Form.Label>
+        <Form.Label id='form-label'>Name:</Form.Label>
         <InputGroup className="mb-3">
           <Form.Control
             placeholder="Name"
             aria-label="Name"
             name="name"
+            id="form-control"
             aria-describedby="basic-addon2"
             onBlur={handleBlur}
             onChange={handleInputChange}
           />
         </InputGroup>
-        <Form.Label>Email:</Form.Label>
+        <Form.Label id='form-label'>Email:</Form.Label>
         <InputGroup className="mb-3">
           <Form.Control
             placeholder="example@email.com"
             aria-label="Email"
             name="email"
+            id="form-control"
             aria-describedby="basic-addon2"
             onBlur={handleBlur}
             onChange={handleInputChange}
           />
         </InputGroup>
-        <Form.Label>Message:</Form.Label>
+        <Form.Label id='form-label'>Message:</Form.Label>
         <InputGroup className="mb-3" style={{height:'30vh'}}>
           <Form.Control
             placeholder="What's your message?"
             as="textarea"
             name="message"
+            id="form-control"
             aria-label="Message"
             onBlur={handleBlur}
             onChange={handleInputChange}

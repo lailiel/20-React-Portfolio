@@ -10,19 +10,19 @@ const ProjectCards = ({projects}) => {
     <Row xs={1} sm={2} md={2} lg={3} className="g-5">
         {projects.map(project => (
         <Col key={project.id}>
-        <Card style={{height:'100%', aspectRatio: "3x2"}}>
+        <Card style={{height:'100%', aspectRatio: "3x2"}} id='project-card'>
        
             <Card.Img style={{height:'100%', objectFit: 'cover'}} src={project.image} alt='Project Image'  />
             <Card.ImgOverlay>
-                <Card.Title>
+                <Card.Title id='project-card-title'>
                     <a href={project.link}>
                         {project.name}
                     </a>
                 </Card.Title>
-                <Card.Text>
+                <Card.Text id='project-card-text'>
                     {project.skillsUsed}
                 </Card.Text>
-                <a href={project.gitLink}>
+                <a href={project.gitLink} id='project-card-github'>
                     <Card.Img  
                         style={{width:'30px', height:'30px'}} 
                         src={githubLogo} atl="Github Logo">
