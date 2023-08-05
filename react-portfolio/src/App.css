@@ -18,28 +18,34 @@ body {
   background-color: var(--mid-dark);
 }
 
-
+/* ------------------------------------------- */
 
 #navbar{
   background-color: var(--dark);
 }
 
 .nav-link{
-  color: var(--light)
+  color: var(--light);
+  transition: 0.4s ease-out;
 }
 
-.nav-link:active, .nav-link:hover, .nav-link:focus {
-  color:var(--x-light)
+.nav-link:active,  .nav-link:hover, .nav-link:focus {
+  color:var(--x-light);
+  transform: scale(1.1);
 }
 
 #nav-name{
   color: var(--mid)
 }
 
+/* ------------------------------------------- */
+
 #footer{
   background-color: var(--mid-darker);
 
 }
+
+/* ------------------------------------------- */
 
 #root{
   display: flex;
@@ -49,11 +55,15 @@ body {
 
 }
 
+/* ------------------------------------------- */
+
 #aboutme{
   display: flex;
   flex-direction: column;
   flex-grow: 1;
 }
+
+/* ------------------------------------------- */ 
 
 #contactform{
   display: flex;
@@ -69,10 +79,65 @@ body {
   color: var(--light);
 }
 
-#project-card{
-  color:var(--mid-dark)
+/* ------------------------------------------- */
 
+#project-card{
+  color:var(--mid-dark);
+  border: none;
+  transition: 0.6s ease-in-out;
 }
+
+
+#project-card:hover{
+ transform: scale(1.2);
+}
+
+#card-overlay {
+  transition: 0.7s ease-in-out;
+}
+
+#card-overlay:hover{
+  background-color: #001f2d;
+  opacity: 90%;
+}
+
+#project-card-a {
+  color:var(--mid);
+  opacity: 0;
+  transition: opacity 0.7s ease;
+  font-family: 'North', Arial, Helvetica, sans-serif;
+  font-size: medium;
+}
+
+#project-card-text{
+  color:var(--light);
+  opacity: 0;
+  transition: opacity 0.7s ease;
+}
+
+#project-card-github {
+  opacity: 0;
+  transition: opacity 0.7s ease;
+}
+
+
+#project-card:hover #project-card-a{
+  opacity: 1;
+  transition-delay: 0.15s;
+}
+
+#project-card:hover #project-card-text{
+  opacity: 1;
+  transition-delay: 0.15s;
+}
+
+#project-card:hover #project-card-github{
+  opacity: 1;
+  transition-delay: 0.15s;
+}
+
+
+/* ------------------------------------------- */
 
 h3 {
   margin: 0.5em 0 0.5em 0;
@@ -87,6 +152,7 @@ h1, h2, h3, h4, h5 {
   font-family: 'North', Arial, Helvetica, sans-serif;
 }
 
+/* ------------------------------------------- */
 
 @font-face {
   font-family: 'North';

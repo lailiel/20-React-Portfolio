@@ -54,7 +54,7 @@ export default function ContactPage() {
 
   return (
     <Container fluid className="py-4 px-5" id="contactform">
-      <div className="mt-3">
+      <div className="mt-3 pb-3">
         <h2>Contact</h2>
       </div>
       <div>

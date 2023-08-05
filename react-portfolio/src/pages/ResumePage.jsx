@@ -10,7 +10,7 @@ import Container from 'react-bootstrap/Container'
 export default function ResumePage ()  {
     return (
         <Container fluid className="py-4 px-5" id="resume-content">
-            <div className='my-3'>
+            <div className='my-3 pb-3'>
                 <h2>Resume: </h2>
             </div>
             <section style={{height: "85vh", overflow:"hidden"}}>
