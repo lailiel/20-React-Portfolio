@@ -53,8 +53,8 @@ export default function ContactPage() {
 // ---------------------------------------------
 
   return (
-    <Container fluid className="py-4 px-5" id="contactform">
-      <div className="mt-3 pb-3">
+    <Container fluid className="p-5 " id="contactform">
+      <div className=" pb-3">
         <h2>Contact</h2>
       </div>
       <div>
@@ -83,7 +83,7 @@ export default function ContactPage() {
           />
         </InputGroup>
         <Form.Label id='form-label'>Message:</Form.Label>
-        <InputGroup className="mb-3" style={{height:'30vh'}}>
+        <InputGroup className="mb-3" style={{height:'25vh'}}>
           <Form.Control
             placeholder="What's your message?"
             as="textarea"

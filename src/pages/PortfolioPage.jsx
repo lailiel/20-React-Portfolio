@@ -25,8 +25,8 @@ export default function PortfolioPage()  {
     ])
 
     return (
-        <Container fluid className="py-4 px-5" id="projects">
-            <div className="my-3 pb-3">
+        <Container fluid className="p-5" id="projects">
+            <div className="pb-3">
                 <h2>Projects</h2>
             </div>
             <ProjectCards projects={projects}/>
