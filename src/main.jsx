@@ -1,4 +1,4 @@
-// import React from 'react';
+import { createRef } from 'react'
 import ReactDOM from 'react-dom/client';
 import{ createBrowserRouter, RouterProvider } from 'react-router-dom';
 
@@ -13,36 +13,29 @@ import ContactPage from './pages/ContactPage';
 import ResumePage from './pages/ResumePage';
 
 
+const routes = [
+  {index: true, element: <HomePage />, },
+  { path: 'aboutme', element: <AboutPage />, nodeRef: createRef(), },
+  { path: 'portfolio', element: <PortfolioPage />, nodeRef: createRef(), },
+  { path: 'contact', element: <ContactPage />, nodeRef: createRef(), },
+  { path: 'resume', element: <ResumePage />, nodeRef: createRef(), },
+]
+
+
 const router = createBrowserRouter([
   {
     path: '/',
     element: <App />,
-    // errorElement: <AboutPage />,
-    children: [
-      {
-        index: true,
-        element: <HomePage />,
-      },
-      {
-        path: 'aboutme',
-        element: <AboutPage />,
-      },
-      {
-        path: 'portfolio',
-        element: <PortfolioPage />,
-      },
-      {
-        path: 'contact',
-        element: <ContactPage />,
-      },
-      {
-        path: 'resume',
-        element: <ResumePage />,
-      },
-    ],
+    children: routes.map((route) => ({
+      index: route.path === '/',
+      path: route.path === '/' ? undefined : route.path,
+      element: route.element,
+    })),
   },
 ]);
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <RouterProvider router={router} />
 )
+
+export default routes

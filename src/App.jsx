@@ -1,16 +1,41 @@
-// import { useState } from 'react'
+import React from 'react'
 import './App.css'
-import { Outlet } from 'react-router-dom'
+import { Outlet, useLocation } from 'react-router-dom'
+import { CSSTransition, TransitionGroup } from 'react-transition-group'
 import Nav from './components/Nav'
 import Footer from './components/Footer'
+import routes from './main'
+import Container from 'react-bootstrap/Container'
 
 function App() {
-  // const [count, setCount] = useState(0)
+
+  const location = useLocation()
+  const currentOutlet = <Outlet/>
+  const { nodeRef } =
+  routes.find((route) => route.path === Location.pathname) ?? {}
 
   return (
     <>
       <Nav/>
-      <Outlet/>
+      <Container>
+        <TransitionGroup>
+          <CSSTransition
+            in={true} // Always set to true to keep the mounted component in the DOM
+            key={location.pathname}
+            nodeRef={nodeRef}
+            timeout={600}
+            classNames="page"
+            unmountOnExit
+            >
+              {(state) => (
+                <div ref={nodeRef} className="page">
+                  {currentOutlet}
+                </div>
+              )}
+        
+          </CSSTransition>
+        </TransitionGroup>
+      </Container>
       <Footer/>
     </>
   )
