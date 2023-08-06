@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import ProjectCards from '../../../src/components/ProjectCards'
+import ProjectCards from '../components/ProjectCards'
 import Container from 'react-bootstrap/Container'
 
 

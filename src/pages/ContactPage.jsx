@@ -1,6 +1,6 @@
 import { Form, InputGroup, Container, Button, Stack} from "react-bootstrap";
 import { useState } from 'react';
-import { validateEmail} from "../../../src/components/utils/helpers";
+import { validateEmail} from "../components/utils/helpers";
 
 
 export default function ContactPage() {
