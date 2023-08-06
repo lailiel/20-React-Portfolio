@@ -5,7 +5,7 @@ import Container from 'react-bootstrap/Container'
 
 export default function PortfolioPage()  {
     const [projects, setProjects] = useState ([
-        { id: 1, name: 'Text Editor', skillsUsed: 'PWA', gitLink: 'https://github.com/lailiel/19-Text-Editor', link: 'https://tech-blog-4899-b706d3d7cc33.herokuapp.com/', image: './src/assets/projectimages/TextEditor.jpg'},
+        { id: 1, name: 'Text Editor', skillsUsed: 'PWA', gitLink: 'https://github.com/lailiel/19-Text-Editor', link: 'https://text-editor-4899-3683dab7fc56.herokuapp.com/', image: './src/assets/projectimages/TextEditor.jpg'},
         { id: 2, name: 'Social Network API', skillsUsed: 'noSQL', gitLink: 'https://github.com/lailiel/18-Social-Network-Api', link: 'https://github.com/lailiel/18-Social-Network-Api', image: './src/assets/projectimages/SocialNetworkApi.jpg'},
 
         { id: 3, name: 'Rock Paper Showdown', skillsUsed: '---', gitLink: 'https://github.com/JohnnyQ40/RockPaperShowdown', link: 'https://rock-paper-showdown-ed328492c032.herokuapp.com/', image: './src/assets/projectimages/RockPaperShowdown.jpg'},
