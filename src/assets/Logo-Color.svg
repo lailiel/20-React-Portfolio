@@ -7,8 +7,32 @@
    viewBox="0 0 68.339233 59.504395"
    version="1.1"
    id="svg5"
+   sodipodi:docname="Logo-Color.svg"
+   inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview195"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#505050"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="3.574946"
+     inkscape:cx="129.23272"
+     inkscape:cy="112.58911"
+     inkscape:window-width="1920"
+     inkscape:window-height="991"
+     inkscape:window-x="1911"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1-2-0-4-0-0-0-5" />
   <defs
      id="defs2" />
   <g
@@ -18,7 +42,7 @@
     <g
        id="layer3-9-3-8-4-5-6-6">
       <path
-         style="fill:#009fe3;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;paint-order:markers fill stroke"
+         style="fill:#66c5ee;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;paint-order:markers fill stroke"
          d="m 100.2084,156.09684 v 59.50437 h 34.16977 l -3.64645,-6.35004 h -24.17328 v -42.09616 z"
          id="path2034-1-9-3-8-0-1-2" />
     </g>
@@ -26,7 +50,7 @@
        id="layer4-0-0-7-8-2-56-0" />
     <path
        id="path2036-6-9-3-58-8"
-       style="display:inline;fill:#004f71;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;paint-order:markers fill stroke"
+       style="display:inline;fill:#009fe3;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;paint-order:markers fill stroke"
        d="M 538.10774,-6.9360298 503.93825,52.56835 h 3.63596 l 11.91916,-20.75636 h 12.26437 v 20.75636 h 6.35 z m -6.35,16.61196 V 25.46199 h -8.61808 z"
        transform="translate(-437.89934,163.03286)" />
   </g>

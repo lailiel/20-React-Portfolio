@@ -38,6 +38,19 @@ body {
   color: var(--mid)
 }
 
+#basic-navbar-nav {
+  background-color: var(--dark);
+  padding: 0;
+}
+
+#nav-default{
+  display: block;
+}
+
+#nav-logo{
+  display: block;
+}
+
 /* ------------------------------------------- */
 
 #footer{
@@ -158,3 +171,36 @@ h1, h2, h3, h4, h5 {
   font-family: 'North';
   src: url('./assets/North.otf') format('opentype');
 }
+
+/* ------------------------------------------- */
+/* large */
+@media screen and (max-width: 1500px) {
+
+  #nav-logo {
+    display: none;
+  };
+
+}
+
+/* medium */
+/* @media screen and (max-width: 768px) {
+  #nav-logo {
+    display:'none'
+  };
+   #nav-default {
+    display: 'none';
+   };
+} */
+
+/* small */
+@media screen and (max-width: 400px) {
+  #nav-default{
+    display: none;
+  } #nav-logo{
+    display: block;
+  }
+}
+
+
+
+
