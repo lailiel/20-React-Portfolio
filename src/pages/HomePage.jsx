@@ -1,5 +1,5 @@
 import Container from "react-bootstrap/Container";
-import portrait from '../assets/headshot.jpg'
+import portrait from '../assets/Headshot.jpg'
 
 export default function AboutPage() {
   return (
