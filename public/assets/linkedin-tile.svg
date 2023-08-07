@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   fill="#fff"
+   height="512"
+   width="512"
+   version="1.1"
+   id="svg37824"
+   sodipodi:docname="linkedin-tile.svg"
+   inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs37828" />
+  <sodipodi:namedview
+     id="namedview37826"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#505050"
+     showgrid="false"
+     inkscape:zoom="1.1103786"
+     inkscape:cx="254.41772"
+     inkscape:cy="262.52307"
+     inkscape:window-width="1920"
+     inkscape:window-height="991"
+     inkscape:window-x="1911"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg37824" />
+  <path
+     id="rect37816"
+     style="fill:#000000"
+     d="M 76.800781 0 C 34.253708 0 0 34.253708 0 76.800781 L 0 435.19922 C 0 477.7463 34.253708 512 76.800781 512 L 435.19922 512 C 477.7463 512 512 477.7463 512 435.19922 L 512 76.800781 C 512 34.253708 477.7463 0 435.19922 0 L 76.800781 0 z M 142 101 A 37 37 0 0 1 179 138 A 37 37 0 0 1 142 175 A 37 37 0 0 1 105 138 A 37 37 0 0 1 142 101 z M 335 190 C 378.99992 190 411 218.00012 411 279 L 411 392 L 345 392 L 345 287 C 345 260.00006 335.99996 242 312 242 C 292.51297 242 280.30531 256.3856 277 272.93555 L 277 392 L 211 392 L 211 194 L 277 194 L 277 220.51367 C 285.3501 207.59781 302.23673 190 335 190 z M 109 194 L 175 194 L 175 392 L 109 392 L 109 194 z " />
+  <g
+     id="path37820">
+    <path
+       style="color:#000000;fill:#ffffff;stroke-width:66;-inkscape-stroke:none"
+       d="M 244,194 V 392 M 142,194 v 198"
+       id="path38367" />
+  </g>
+</svg>
