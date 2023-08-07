@@ -2,9 +2,6 @@
   "name": "react-portfolio",
   "private": true,
   "version": "0.0.0",
-  "engines": {
-    "node": "v18.16.0"
-  },
   "type": "module",
   "scripts": {
     "start": "vite",
@@ -17,7 +14,6 @@
     "body-parser": "^1.20.2",
     "bootstrap": "^5.3.1",
     "heroku": "^8.1.9",
-    "nodejs": "^v18.16.0",
     "nodemailer": "^6.9.4",
     "react": "^18.2.0",
     "react-bootstrap": "^2.8.0",
