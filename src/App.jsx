@@ -20,7 +20,7 @@ function App() {
       <Container>
         <TransitionGroup>
           <CSSTransition
-            in={true} // Always set to true to keep the mounted component in the DOM
+            in={true}
             key={location.pathname}
             nodeRef={nodeRef}
             timeout={600}
@@ -32,7 +32,6 @@ function App() {
                   {currentOutlet}
                 </div>
               )}
-        
           </CSSTransition>
         </TransitionGroup>
       </Container>

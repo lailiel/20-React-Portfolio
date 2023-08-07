@@ -11,7 +11,7 @@ export default function ResumePage ()  {
     return (
         <Container fluid className="p-5" id="resume-content">
             <div className='pb-3'>
-                <h2>Resume: </h2>
+                <h2>Resume </h2>
             </div>
             <section style={{height: "85vh", overflow:"hidden"}}>
                 <iframe src={resume} width="100%" height="100%" title="Abigail Livick Resume"></iframe>

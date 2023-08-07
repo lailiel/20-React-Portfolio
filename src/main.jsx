@@ -14,7 +14,7 @@ import ResumePage from './pages/ResumePage';
 
 
 const routes = [
-  {index: true, element: <HomePage />, },
+  { path: '/', element: <HomePage />, nodeRef: createRef(), },
   { path: 'aboutme', element: <AboutPage />, nodeRef: createRef(), },
   { path: 'portfolio', element: <PortfolioPage />, nodeRef: createRef(), },
   { path: 'contact', element: <ContactPage />, nodeRef: createRef(), },
