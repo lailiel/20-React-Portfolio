@@ -8,7 +8,7 @@ export default function PortfolioPage()  {
         { id: 1, name: 'Text Editor', skillsUsed: 'PWA', gitLink: 'https://github.com/lailiel/19-Text-Editor', link: 'https://text-editor-4899-3683dab7fc56.herokuapp.com/', image: '/assets/projectimages/TextEditor.jpg'},
         { id: 2, name: 'Social Network API', skillsUsed: 'noSQL', gitLink: 'https://github.com/lailiel/18-Social-Network-Api', link: 'https://github.com/lailiel/18-Social-Network-Api', image: '/assets/projectimages/SocialNetworkApi.jpg'},
 
-        { id: 3, name: 'Rock Paper Showdown', skillsUsed: '---', gitLink: 'https://github.com/JohnnyQ40/RockPaperShowdown', link: 'https://rock-paper-showdown-ed328492c032.herokuapp.com/', image: '/assets/projectimages/RockPaperShowdown.jpg'},
+        // { id: 3, name: 'Rock Paper Showdown', skillsUsed: '---', gitLink: 'https://github.com/JohnnyQ40/RockPaperShowdown', link: 'https://rock-paper-showdown-ed328492c032.herokuapp.com/', image: '/assets/projectimages/RockPaperShowdown.jpg'},
 
         { id: 4, name: 'Tech Blog', skillsUsed: 'MCV', gitLink: 'https://github.com/lailiel/14-MVC-Tech-Blog', link: 'https://techblog7395-7f4f7ae01458.herokuapp.com/', image: '/assets/projectimages/TechBlog.jpg'},
         { id: 5, name: 'E-Commerce Back End', skillsUsed: 'ORM', gitLink: 'https://github.com/lailiel/13-E-Commerce-Back-End', link: 'https://github.com/lailiel/13-E-Commerce-Back-End', image: '/assets/projectimages/EcommerceBackend.jpg'},
