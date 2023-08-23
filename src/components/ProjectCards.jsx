@@ -14,14 +14,14 @@ const ProjectCards = ({projects}) => {
             <Card.Img id='card-image' style={{height:'100%', objectFit: 'cover'}} src={project.image} alt='Project Image' />
             <Card.ImgOverlay id='card-overlay' className='p-4'>
                 <Card.Title className='project-card-title'>
-                    <a id='project-card-a'href={project.link}>
+                    <a id='project-card-a'href={project.link} target="_blank" rel="noopener noreferrer">
                         {project.name}
                     </a>
                 </Card.Title>
                 <Card.Text id='project-card-text' className='my-1'>
                     {project.skillsUsed}
                 </Card.Text>
-                <a href={project.gitLink} id='project-card-github' >
+                <a href={project.gitLink} id='project-card-github' target="_blank" rel="noopener noreferrer">
                         <Card.Img  className='justify-content-flex-end'
                             style={{width:'1.1em', height:'1.1em'}} 
                             src={githubLogo} atl="Github Logo">

@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import ProjectCards from '../components/ProjectCards'
 import Container from 'react-bootstrap/Container'
+// import justtask from '.../assets/projectimages/JustTask.jpg'
 
 
 export default function PortfolioPage()  {
