@@ -4,3 +4,7 @@ export function validateEmail(email) {
   }
 
  
+export function handleLinkClick(event) {
+  event.preventDefault();
+  window.open(event.target.href, '_blank');
+}

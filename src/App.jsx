@@ -6,6 +6,7 @@ import Nav from './components/Nav'
 import Footer from './components/Footer'
 import routes from './main'
 import Container from 'react-bootstrap/Container'
+import { handleLinkClick } from './components/utils/helpers'
 
 function App() {
 
